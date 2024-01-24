@@ -1,0 +1,348 @@
+:root{
+    --primary: #194866;
+    --secondary: #ced4da;
+    --backcolor:white;
+    --color:#ff7518;
+    --padding : 8%;
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+font-family: "Open Sans","Noto Sans Arabic",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+text-align: left;
+background-color:#ced4da5d;
+}
+
+div.Header,.search {
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+div.Header a img{
+    margin:0.5rem 0rem 3rem 2rem;
+    padding-right: 450px;
+    cursor: pointer;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: non;
+    margin: 1rem 1rem 0rem 0rem;
+}
+nav ul li a {
+    color: var(--primary);
+    text-decoration: none ;
+    font-size: 18px;
+    padding-left: 4px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav ul li a span:hover {
+ text-decoration: underline var(--color) 3px solid;
+} 
+
+.search {
+    margin-left: 1250px;
+    margin-top: 8px;
+    padding: 3px 10px 3px 2px;
+    border: 2px solid  var(--primary);
+    border-radius: 20px;
+    width: max-content;
+    float:left;
+}
+button {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+button i {
+    height: 10px;
+    width: 25px;
+    color: var(--primary);
+    margin-right: 5px;
+}
+button i img{
+    width:25px;
+}
+input {
+    height: 35px;
+    margin-left: 5px;
+    border: none;
+    text-align: center;
+    width: 0px;
+    width: 200px;
+    padding: 0 30px 0 0px;
+}
+
+a.login {
+    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    color:var(--primary);
+    text-decoration: none;
+    border:var(--primary) solid 2px;
+    border-radius: 0px 30px 30px 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    transition: 0.5s;
+}
+a.login:hover {
+    background-color:var(--color);
+}
+
+div.content {
+    padding-top:100px;
+    padding-bottom: 10px;
+    width:100%;
+}
+div.content img{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width:35%;
+    height:50%;
+    margin-left: 950px;
+    margin-top: -400px;
+    cursor: pointer;
+}
+div.content h1{
+    padding-top: 10px;
+    padding-left: 100px;
+    max-width:700px; 
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+    color: var(--primary);
+}
+div.content h4{
+    padding-left: 100px;
+    max-width:870px; 
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: gray;
+}
+div.content a.Get {
+     font-size: 20px;
+     text-decoration: none;
+     color: var(--primary);
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-left: 100px;
+     border:var(--primary) solid 2px;
+     border-radius: 0px 30px 30px 30px;
+     transition: 0.4s;
+}
+div.content a.Get:hover {
+    background-color:var(--color);
+}
+.Bar {
+    box-shadow: 0 0.2rem 1rem transparent;
+    border-radius: 30px ;
+    padding-left: 100px;
+    padding-top: 40px ;
+    padding-bottom: 80px ;
+    margin-top: 30px;
+    align-items:center;
+}
+.linkbar{
+    font-size: 17px;
+    text-decoration: none;
+    border-bottom: 1px solid ;
+    border: 1px solid #dee2e6;
+    padding-left: 50px;
+    padding-right: 100px ;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+    border-radius: 10px;
+}
+a.linkbar{
+    text-decoration: none;
+    background-color: transparent;
+    background-color: white;
+    transition: 0.5s;
+    color: var(--primary);
+}
+a.linkbar:hover{
+    border-bottom: var(--color) 5px solid;
+}
+
+
+div.content div.comp{
+  margin: auto;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  width:90%;
+  height: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+}
+div.comp img.imgcont{
+    width : 350px;
+    height: 350px;
+    margin-top: -1000px ;
+}
+ div.comp h4.community{
+     margin-top: 80px;
+     margin-bottom: -50px;
+     padding-top: 80px;
+ }
+
+ div.news h4{
+    padding: 40px 20px 2px 170px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+ }
+ div.news h1{
+    padding: 10px 20px 10px 170px;
+    color:var(--color);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+ }
+ div.newscont h4{
+    padding: 40px;
+    color:var(--primary);
+    font-weight: bold;
+    font-size: 23px;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+ }
+ div.news{
+  width: 95%;
+  height: 660px;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 80px;
+  background-color: var(--primary);
+  border-radius: 50px;
+ }
+ div.bignewscont{
+    width: 80%;
+    height: 430px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+ }
+ div.newscont{
+    margin: 0px 10px 20px 20px ;
+    border-radius: 20px;
+    background-color: white;
+    width:  500px;
+    height: 420px;
+    border: transparent 5px solid;
+    transition: 0.4s;
+ }
+ div.newscont:hover{
+    border: var(--color) 5px solid;
+ }
+ div.newscont img {
+    padding: 0px 0px 20px 0px;
+    width: 100%;
+    height: 250px;
+    float: left;  
+    border-radius: 20px; 
+ }
+
+ div.members h1.bigmemb{
+    padding-top: 30px;
+    color:var(--color);
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+ }
+ div.smallpeople h4{
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+ }
+ div.smallpeople h1{
+    padding: 20px  20px  10px 55px ;
+    color: var(--color);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+ }
+ div.members {
+  width: 95%;
+  height: 720px;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 80px;
+  padding-right: 10px;
+  background-color: white;
+  border-radius: 50px;
+ }
+ div.subpeople{
+    width: 99%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 20px;
+ }
+ div.smallpeople{
+    margin: 0px 0px 20px 20px ;
+    border-radius: 20px;
+    background-color:var(--primary);
+    width:  300px;
+    height: 500px;
+    border: transparent 5px solid;
+    transition: 0.4s;
+ }
+ div.smallpeople:hover{
+    border: var(--color) 5px solid;
+ }
+ div.smallpeople img {
+    padding: 20px 20px 20px 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 60%;
+    height: 150px;
+    border-radius: 30px; 
+    border: white 2px solid;
+    border-radius: 30px;
+    background-color:cornflowerblue;
+ }
+
+ div.footer{
+    background-color: var(--primary);
+    height: 100px;
+ }
+div.social{
+    padding-top: 30px;
+    padding-left: 150px;
+    float: left;
+}
+div.footer img.iccon{
+    float:right;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+div.social a img {
+    padding-left: 20px;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+.social img:hover{
+    transform: scale(1,1.5);
+}
+div.social h4{
+    display: inline;
+    color: white ;
+    padding-left: 100px;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+    font-size: 30px;
+}

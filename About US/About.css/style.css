@@ -1,0 +1,222 @@
+:root{
+    --primary: #194866;
+    --secondary: #ced4da;
+    --backcolor:white;
+    --color:#ff7518;
+    --padding : 8%;
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+font-family: "Open Sans","Noto Sans Arabic",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+text-align: left;
+background-color:#ced4da5d;
+}
+div.Header,.search {
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+div.Header a img{
+    margin:0.5rem 0rem 3rem 2rem;
+    padding-right: 500px;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: non;
+    margin: 1rem 1rem 0rem 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+nav ul li a {
+    color: var(--primary);
+    text-decoration: none ;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav ul li a span:hover {
+ text-decoration: underline var(--color) 2px solid;
+ padding-top: 50px;
+} 
+.search {
+    margin-left: 1200px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid  var(--primary);
+    border-radius: 20px;
+    width: max-content;
+    overflow: hidden;
+    float:left;
+
+}
+button {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+button i {
+    height: 20px;
+    width: 25px;
+    color: var(--primary);
+    margin-right: 2px;
+}
+input {
+    height: 35px;
+    margin-left: 5px;
+    border: none;
+    text-align: center;
+    width: 0px;
+    transition: width 0.5s;
+}
+.search:hover > input {
+    width: 150px;
+}
+a.login {
+    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    padding: auto;
+    font-weight: bold;
+    color: var(--primary);
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+a.login:hover {
+    text-decoration: underline var(--color) 2px solid;
+}
+select 
+{
+    border: none ;
+    padding:0;
+    width: 10%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10px;
+    color: var(--primary);
+    border: #194866 2px solid;
+    border-radius: 6px;
+}
+select option
+{
+    width: max-content;
+    font-weight: bold ;
+    height:3px;
+    overflow: auto;
+}
+div a.Home{
+    padding: 70px 5px 20px 20px;
+    font-weight: bold;
+    color: var(--primary);
+    width:max-content;
+    height:35px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+div a.Home:hover{
+    text-decoration: underline var(--color) 2px solid;
+    padding-bottom: 50px;
+}
+
+div.content {
+    padding-top:100px;
+    padding-bottom: 10px;
+    width:100%;
+}
+div.content img{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width:35%;
+    height:50%;
+    margin-left: 890px;
+    margin-top: -400px;
+}
+
+div.content h1{
+    padding-top: 10px;
+    padding-left: 100px;
+    max-width:700px; 
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-family: "DM Serif Display","Noto Sans Arabic",serif;
+    color: var(--primary);
+}
+div.content h4{
+    padding-left: 100px;
+    max-width:870px; 
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: gray;
+}
+div.content a.Get {
+     font-size: 20px;
+     text-decoration: none;
+     color: var(--primary);
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin-left: 100px;
+     border:var(--primary) solid 2px;
+     border-radius: 30px;
+     transition: 0.4s;
+}
+div.content a.Get:hover {
+    background-color:var(--color);
+}
+.Bar {
+    box-shadow: 0 0.2rem 1rem transparent;
+    border-radius: 30px ;
+    padding-left: 100px;
+    padding-top: 40px ;
+    padding-bottom: 80px ;
+    margin-top: 30px;
+    align-items:center;
+}
+.linkbar{
+    font-size: 17px;
+    text-decoration: none;
+    border-bottom: 1px solid ;
+    border: 1px solid #dee2e6;
+    padding-left: 50px;
+    padding-right: 100px ;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+    border-radius: 10px;
+    }
+a.linkbar{
+    text-decoration: none;
+    background-color: transparent;
+    background-color: white;
+    transition: 0.5s;
+    color: var(--primary);
+}
+a.linkbar:hover{
+    border-bottom: var(--color) 5px solid;
+}
+div.content div.comp{
+  margin: auto;
+  background-color: white;
+  width:90%;
+  height: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+ div.comp h4.community{
+     margin-top: 80px;
+     margin-bottom: -50px;
+     padding-top: 80px;
+ }
+ div.comp img.imgcont{
+   padding-right: 60px;
+   width: 500px;
+   height: 400px;
+}

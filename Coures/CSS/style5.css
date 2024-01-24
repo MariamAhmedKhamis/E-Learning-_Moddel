@@ -1,0 +1,164 @@
+header {
+    padding: 20px;
+    font-size: 30px;
+}
+
+header .logo {
+    display: inline-block;
+}
+
+main {
+    padding: 50px;
+    margin: -10px;
+    background-image: url("../images/background.png")
+}
+
+main p {
+    font-size: 20px;
+    line-height: 1.7;
+    color: rgb(255, 255, 255);
+}
+
+main h2 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+.pic1 {
+    top: 30px;
+    background-color: rgb(255, 119, 0);
+    width: fit-content;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: -200px;
+    border-radius: 300px;
+}
+
+.fom .label {
+    font-size: 20px;
+}
+
+.fom .sel {
+    padding: 20px;
+    font-size: 15px;
+}
+
+.fom {
+    padding: 5% 5%;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    position: relative;
+    bottom: 400px;
+    left: 60%;
+    border-radius: 60px;
+}
+
+.ANS {
+    background-color: rgb(253, 228, 217);
+    width: fit-content;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: none;
+}
+
+.ANS p {
+    color: black;
+    font-size: 16px;
+}
+
+.list {
+    display: inline-block;
+    width: 75%;
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+    color: rgb(255, 119, 0);
+}
+
+.mail {
+    color: blue;
+}
+
+.GM {
+    color: rgb(189, 220, 250);
+}
+
+.qu {
+    border: 20px solid white;
+    /* margin: 2%; */
+    padding: 30px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 40%;
+    position: relative;
+    left: 40%;
+    bottom: 50%;
+    font-size: 20px;
+    color: black;
+}
+
+article .qu p {
+    display: none;
+    font-size: 17px;
+}
+
+article .div1 {
+    /* margin: 10px; */
+    padding: 30px;
+    position: relative;
+    width: 25%;
+    display: inline-block;
+    top: 150px;
+    left: 160px;
+    font-size: 30px;
+    color: rgb(255, 119, 0);
+}
+
+article .div1 p {
+    font-size: 20px;
+    padding-left: 10px;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.social {
+    position: relative;
+    left: 1150px;
+}
+
+.iccon {
+    /* margin: 50px; */
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+
+h4 {
+    position: relative;
+    left: 450px;
+    bottom: 60px;
+    font-size: 20px;
+}
+
+.footer {
+    margin: -10px;
+    background-image: url("../images/background.png");
+}
+
+.footer h4 {
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 119, 0);
+}
+
+::selection {
+    background-color: rgb(255, 119, 0);
+}

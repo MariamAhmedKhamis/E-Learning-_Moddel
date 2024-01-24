@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact Us Moodel</title>
+    <link rel="stylesheet" href="css/style5.css">
+    <link rel="icon" href ="images/Capture.PNG"/> 
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt=" pic is not found " width="10%" height="10%">
+        </div>
+        <div class="h1">
+            <h1>Contact Us </h1>
+        </div>
+    </header>
+
+    <main>
+        <h2>Get in touch</h2>
+        <div>
+            <p>Need help choosing a Moodle product or can't find answers to your <br> question in our FAQ centre? Our
+                team is
+                here to help!<br><br>
+                Simply contact us in here <a class="GM"
+                    href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sm2981@fayoum.edu.eg&tf=1">sm2981@fayoum.edu.eg</a>.<br>
+                and tell us the nature of your enquiry and one of our team or partners will get
+                back to
+                you.</p>
+        </div>
+        <div class="pic1">
+            <img src="images/contact-intro.jpg" alt=" pic is not found " width="600px">
+        </div>
+        <div class="fom">
+            <form>
+                <label for="help" class="label"> How can we help you today?*:</label><br><br>
+                <Select id="help" onchange="showAnswers(this)" class="sel">
+                    <option value="shwnon" class="sel" selected="">Please Select</option>
+                    <option value="ans1" class="sel">I want to get start with Moodel</option>
+                    <option value="ans2" class="sel">I need support with an existing Moodel product</option>
+                    <option value="ans3" class="sel">I have a different enquiry</option>
+                </Select>
+            </form>
+            <div id="ans1" class="ANS">
+                <p>If you're ready to get started with Moodle,<br> please get in contact with us here
+                    <a class="mail"
+                        href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sm2981@fayoum.edu.eg&tf=1">sm2981@fayoum.edu.eg</a>.
+                </p>
+            </div>
+            <div id="ans2" class="ANS">
+                <p>If you have already signed up for a MoodleCloud site<br> please login for faster support.</p>
+            </div>
+            <div id="ans3" class="ANS">
+                <p>Please request an export or deletion of personal data<br>
+                    by contacting us here <a class="mail"
+                        href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sm2981@fayoum.edu.eg&tf=1">sm2981@fayoum.edu.eg</a>.<br>
+                    if you have a MoodleCloud site or you<br>
+                    would like to ask for general information.<br>
+                    how to delete or export your personal data from other sites hosted <br>is by us directly from your
+                    profile page.</p>
+            </div>
+        </div>
+    </main>
+
+    <article id="link">
+        <div class="div1">
+            <p>*Moodle FAQs</p>
+            <h2>Frequently asked questions</h2>
+        </div>
+        <div class="list">
+            <ol>
+                <div class="qu">
+                    <li>
+                        <a href="#link" onclick="show_hide1()" id="qu1">I'm a student. How do i login to my Moodel site
+                            ?
+                        </a><br>
+                    </li>
+                    <p id="q1">To access your educational institution or organisation's Moodle site,
+                        please get in touch with the Moodle Admin of your site, or one of your teachers or trainers.</p>
+                </div>
+                <div class="qu">
+                    <li>
+                        <a href="#link" onclick="show_hide2()" id="qu2">Where can i get support for my Moodel site ?
+                        </a><br>
+                    </li>
+                    <p id="q2">If your site is hosted on your own server or MoodleCloud,<br>
+                        we recommend exploring our forums for resources on getting started and managing courses.
+                        If you're with a Certified Moodle Provider, please contact them for assistance.</p>
+                </div>
+                <div class="qu">
+                    <li>
+                        <a href="#link" onclick="show_hide3()" id="qu3">My site is done/I can't login to my site </a>
+                    </li>
+                    <p id="q3">If your site is hosted on MoodleCloud, please get in touch with our team here <a
+                            class="mail"
+                            href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sm2981@fayoum.edu.eg&tf=1">sm2981@fayoum.edu.eg</a>.<br>
+                        If your site is hosted by a third party, you will need to contact your site administrator or
+                        hosting
+                        provider.</p>
+                </div>
+            </ol>
+        </div>
+        <hr>
+    </article>
+
+    <div class=" footer">
+        <img class="iccon" src="images/footer.png" width=" 200px">
+        <div class="social">
+            <a href="https://www.facebook.com/moodle/" target="_blank"><img src="images/face.png"></a>
+            <a href="https://www.youtube.com/moodle" target="_blank"><img src="images/youtub.png"></a>
+            <a href="https://www.linkedin.com/company/moodle" target="_blank"><img src="images/in.png"></a>
+            <a href="https://twitter.com/moodle" target="_blank"><img src="images/twitter.png"></a>
+            <a href="https://www.instagram.com/moodlehq/" target="_blank"><img src="images/insta.png"></a>
+        </div>jj
+        <h4> © 2022 All rights reserved , Moddel.net for Business </h4>
+    </div>
+
+    <script>
+        var x1 = document.getElementById("q1");
+        var x2 = document.getElementById("q2");
+        var x3 = document.getElementById("q3");
+        function show_hide1() {
+
+            if (x1.style.display === "none") {
+                x1.style.display = "block";
+                x2.style.display = "none";
+                x3.style.display = "none";
+            }
+
+            else {
+                x1.style.display = "none";
+            }
+        }
+
+        function show_hide2() {
+            if (x2.style.display === "none") {
+                x2.style.display = "block";
+                x1.style.display = "none";
+                x3.style.display = "none";
+            }
+
+            else {
+                x2.style.display = "none";
+            }
+        }
+
+        function show_hide3() {
+            if (x3.style.display === "none") {
+                x3.style.display = "block";
+                x2.style.display = "none";
+                x1.style.display = "none";
+            }
+
+            else {
+                x3.style.display = "none";
+            }
+        }
+
+        function showAnswers(A) {
+            var x = A.value;
+
+            if (x === "shwnon") {
+                document.getElementById('ans1').style.display = "none";
+                document.getElementById('ans2').style.display = "none";
+                document.getElementById('ans3').style.display = "none";
+            }
+            else if (x === "ans1") {
+                document.getElementById('ans1').style.display = "block";
+                document.getElementById('ans2').style.display = "none";
+                document.getElementById('ans3').style.display = "none";
+            }
+            else if (x === "ans2") {
+                document.getElementById('ans1').style.display = "none";
+                document.getElementById('ans2').style.display = "block";
+                document.getElementById('ans3').style.display = "none";
+            }
+            else if (x === "ans3") {
+                document.getElementById('ans1').style.display = "none";
+                document.getElementById('ans2').style.display = "none";
+                document.getElementById('ans3').style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>

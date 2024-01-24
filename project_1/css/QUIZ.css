@@ -1,0 +1,265 @@
+.p1{
+color: #094061;
+font-size: 40px;
+margin-left: 20px ;
+/* margin-top: 50px; */
+padding-top: 50px;
+
+}
+
+.p2{
+margin-left: 20px;
+margin-top: -20px;
+
+}
+.p3{
+    color: gray;
+    width:600px ;
+    margin-left: 60px;
+}
+.image1{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+  margin-left: 10px;
+  margin-top: 50px;
+   text-align: center;
+   display:inline-block ;
+   justify-items: center;
+   align-items:center ;
+
+}
+.p4{
+
+    margin-left: 80px;
+    margin-top: -15px;
+    padding-top: 10px;
+
+}
+.p4:hover{
+    color:blue ;
+    text-decoration: underline;
+
+}
+.image2{
+    width: 430px;
+    height: 200px;
+    border-radius: 30px;
+    float:right;
+    margin-right: 20px;
+}
+.p5{
+    margin-left: 20px;
+
+
+}
+.p6{
+    color: gray;
+    width:600px ;
+    margin-left: 60px;
+}
+.image3{
+    width: 430px;
+    height: 200px;
+    border-radius: 30px;
+    float:right;
+    margin-right: 20px;
+}
+.image4{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+  margin-left: 10px;
+  margin-top: 50px;
+   text-align: center;
+   display:inline-block ;
+   justify-items: center;
+   align-items:center ;
+}
+.p7{
+    margin-left: 80px;
+    margin-top: -15px;
+    padding-top: 10px;
+}
+.p7:hover{ color:blue ;
+    text-decoration: underline;
+
+}
+.p8{
+    margin-left: 20px;
+}
+.p9{
+    color: gray;
+    width:600px ;
+    margin-left: 60px;
+}
+.image5{
+    width: 430px;
+    height: 200px;
+    border-radius: 30px;
+    float:right;
+    margin-right: 20px;
+}
+.image6{
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+  margin-left: 10px;
+  margin-top: 50px;
+   text-align: center;
+   display:inline-block ;
+   justify-items: center;
+   align-items:center ;
+}
+.p10{  
+    margin-left: 80px;
+    margin-top: -15px;
+    padding-top: 10px;
+}
+.p10:hover{ color:blue ;
+    text-decoration: underline;
+
+}
+.p11{
+    margin-left: 20px;
+}
+.p12{
+     color: gray;
+    width:600px ;
+    margin-left: 60px;
+}
+ .image7{
+        width: 430px;
+        height: 200px;
+        border-radius: 30px;
+        float:right;
+        margin-right: 20px;
+    }
+.image8{
+   
+        background-color: pink;
+        width: 50px;
+        height: 50px;
+      margin-left: 10px;
+      margin-top: 50px;
+       text-align: center;
+       display:inline-block ;
+       justify-items: center;
+       align-items:center ;
+}
+.p13{  
+    margin-left: 80px;
+    margin-top: -15px;
+    padding-top: 10px;
+}
+.p13:hover{ color:blue ;
+    text-decoration: underline;
+
+}
+.p14{
+margin-left:     20px;
+}
+.p15{
+     color: gray;
+    width:600px ;
+    margin-left: 60px;
+}
+.image9{
+    width: 430px;
+    height: 200px;
+    border-radius: 30px;
+    float:right;
+    margin-right: 20px;
+}
+.image10{
+
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+  margin-left: 10px;
+  margin-top: 50px;
+   text-align: center;
+   display:inline-block ;
+   justify-items: center;
+   align-items:center ;
+}
+.p16{  
+    margin-left: 80px;
+    margin-top: -15px;
+    padding-top: 10px;
+}
+.p16:hover{ color:blue ;
+    text-decoration: underline;
+
+}
+.p17{
+    margin-left:     20px;
+}
+.p18{
+    color: gray;
+    width:600px ;
+    margin-left: 60px;
+}
+.image11{
+    width: 430px;
+    height: 200px;
+    border-radius: 30px;
+    float:right;
+    margin-right: 20px;
+}
+.image12{
+
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+  margin-left: 10px;
+  margin-top: 50px;
+   text-align: center;
+   display:inline-block ;
+   justify-items: center;
+   align-items:center ;
+}
+.p19{  
+    margin-left: 80px;
+    margin-top: -15px;
+    padding-top: 10px;
+}
+.p19:hover{ color:blue ;
+    text-decoration: underline;
+
+}
+.div1 {
+    width: 1460px;
+    height: 80px;
+    background-color: #094061;
+    margin-top: 30px;
+}
+.img13 {
+    width: 120px;
+    height: 30px;
+    padding: 20px 20px 10px ;
+}
+.img14 {
+    float: right;
+    padding: 30px 10px 20px 20px;
+}
+.img15 {
+    float: right;
+    padding: 30px 10px 20px 20px;
+}
+.img16 {
+    float: right;
+    padding: 30px 10px 20px 20px;
+}
+.img17 {
+    float: right;
+    padding: 30px 10px 20px 20px;
+}
+.p20 {
+    text-align: center;
+    display: inline-block;
+    padding-left: 270px;
+    color:white;
+}
+
+
